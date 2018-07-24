@@ -77,7 +77,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
+   font-family: helvetica;
    font-size: 1em;
 }
 
@@ -180,7 +180,7 @@ p.lead {
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
+em { font: 15px/30px 'helvetica'; }
 strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
@@ -196,7 +196,7 @@ blockquote:before {
    font-size: 80px;
    line-height: 0px;
    margin: 0;
-   font-family: arial, sans-serif;
+   font-family: helvetica;
 
    position: absolute;
    top:  30px;
@@ -238,7 +238,7 @@ blockquote cite a:visited { color: #8B9798; border: none }
 	opacity: 0.45;
 	position: absolute;
 	font-size: 80px;
-   font-family: Arial, Sans-Serif;
+   font-family: helvetica;
 }
 .pull-quote:before {
 	content: "\201C";
@@ -259,7 +259,7 @@ blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Abbreviations */
 abbr {
-   font-family: 'opensans-bold', sans-serif;
+   font-family: 'helvetica', sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
